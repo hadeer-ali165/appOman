@@ -15,9 +15,10 @@ workflows:
         script: xcode-project use-profiles
       - name: Get Flutter packages
         script: flutter pub get
-      - name: Install pods (with repo update to fix Molinillo conflicts)
+      - name: Install pods (remove old lock, update repo, fresh install)
         script: |
           cd ios
+          rm -f Podfile.lock
           pod repo update
           pod install --repo-update
       - name: Build iOS
