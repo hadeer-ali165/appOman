@@ -1,0 +1,10 @@
+# نسخ هذا الملف إلى key.properties وملء القيم من مفاتيح Scorpion
+# لا ترفع key.properties إلى Git
+
+storePassword=كلمة_مرور_المتجر
+keyPassword=كلمة_مرور_المفتاح
+keyAlias=الاسم_المستعار_للمفتاح
+storeFile=المسار/إلى/ملف_keystore.jks
+
+# مثال (المسار نسبي لمجلد android):
+# storeFile=../app/upload-keystore.jks

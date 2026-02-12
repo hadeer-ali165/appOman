@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752722248158",
+    "project_id": "oman-promo-3d0cb",
+    "storage_bucket": "oman-promo-3d0cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752722248158:android:cc9f38ba47440d0a2d5d4f",
+        "android_client_info": {
+          "package_name": "com.oman.promo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6itUgW3IcO40KlUOD0l9sHgSn8ZTw_Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
