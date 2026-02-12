@@ -201,6 +201,7 @@ class _ContentLabel extends StatelessWidget {
   final TextStyle? labelTextStyle;
   const _ContentLabel({
     required this.labelText,
+    this.labelTextStyle,
   });
 
   @override
